@@ -1,5 +1,6 @@
 krrrcks-mudlet
 ==============
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Kebap/krrrcks-mudlet?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Mudlet Skripte für das MUD MorgenGrauen. Infos zum Spiel: http://mg.mud.de
 
