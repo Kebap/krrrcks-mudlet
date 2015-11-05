@@ -327,6 +327,7 @@ function schaetz_ausgabe()
     dt = string.gsub(dt, 'zerquetschenden','Quetschen')
     dt = string.gsub(dt, 'explodierenden','Explosionen')
     dt = string.gsub(dt, 'reissenden','Reissen')
+  end 
 
   if r == &quot;extrem anfaellig&quot; then
     schaetz_max_res = schaetz_max_res .. dt .. &quot;, &quot;
