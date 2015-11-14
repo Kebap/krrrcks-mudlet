@@ -52,7 +52,7 @@ Kurzanleitung
 
 * XML Dateien folgender Skripte speichern (Rechte Maustaste, Speichern unter ...)
  * [Grundskript](https://raw.githubusercontent.com/Kebap/krrrcks-mudlet/master/krrrcks.xml) - ohne geht es nicht
- * [Einstellungen](https://raw.githubusercontent.com/Kebap/krrrcks-mudlet/master/settings.xml) - benutzerdefinierte Einstellungen - ausgelagert aber benötigt
+ * benutzerdefinierte [Einstellungen](https://raw.githubusercontent.com/Kebap/krrrcks-mudlet/master/settings.xml) - ausgelagert aber benötigt
  * [Mapper](https://raw.githubusercontent.com/Kebap/krrrcks-mudlet/master/mapper.xml) - optionale Erweiterung
 * Ggf. Mudlet [installieren](http://www.mudlet.org/download) (getestet mit 3.0 und 2.1)
 * Neues Mudlet Profil erstellen für _mg.mud.de_ Port _23_ (Weitere Charaktere benötigen eigene Profile)
