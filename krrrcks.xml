@@ -850,9 +850,9 @@ und den Aliasen zu finden.
             </Alias>
             <Alias isActive="yes" isFolder="no">
                 <name>Home</name>
-                <script>-- funzt nur, wenn man den Kommandoseparator auf | gesetzt hat; ist
--- im Standard auf ; </script>
-                <command>#go haus|#haus</command>
+                <script>expandAlias(&quot;#go haus&quot;)
+expandAlias(&quot;#haus&quot;)</script>
+                <command></command>
                 <packageName></packageName>
                 <regex>^#home$</regex>
             </Alias>
@@ -920,46 +920,6 @@ alt_dopath(matches[2])</script>
             <packageName></packageName>
             <script>-- Einstellungen (Farben etc.)</script>
             <eventHandlerList/>
-            <Script isActive="yes" isFolder="no">
-                <name>Farben</name>
-                <packageName></packageName>
-                <script>-- Einstellungen fuer Farben Allgemein
-farben = {}
-farben.vg = 
-  { komm = &quot;cyan&quot;,
-    ebenen = &quot;magenta&quot;,
-    info = &quot;green&quot;,
-    alarm = &quot;white&quot;,
-    script = &quot;dark_green&quot; }
-farben.hg = 
-  { komm = &quot;black&quot;,
-    ebenen = &quot;black&quot;,
-    info = &quot;black&quot;, 
-    alarm = &quot;red&quot;,
-    script = &quot;black&quot; }
-
--- komm: Kommunikation wie teile-mit
--- ebenen: Einfaerben der &quot;normalen&quot; Ebenen
--- info: Einfaerben von Informationen des Muds (Status Gegner)
--- alarm: Alarm-Nachrichten
--- script: Nachrichten, die nicht vom Mud, sondern von einem Script stammen.
-
--- Einstellungen fuer Farben Kampfscroll
-
-function msg (type, what)
-  -- setzt VG und HG je nach Typ der Kommunikation
-  local vg = farben.vg[type]
-  local hg = farben.hg[type]
-
-  if vg and hg then
-    cecho(&quot;&lt;&quot;..vg..&quot;:&quot;..hg..&quot;&gt;&quot;..what)
-  else
-    echo(what)
-  end
-end
-</script>
-                <eventHandlerList/>
-            </Script>
             <Script isActive="yes" isFolder="no">
                 <name>Spieler</name>
                 <packageName></packageName>
@@ -1371,9 +1331,9 @@ end</script>
         - <keyModifier>536870912</keyModifier> 
         </Key>
       - <Key isActive="yes" isFolder="no">
-      -   <name>5: tanz</name> 
+      -   <name>5: schau</name> 
         - <script /> 
-        - <command>tanz</command> 
+        - <command>schau</command> 
         - <keyCode>53</keyCode> 
         - <keyModifier>536870912</keyModifier> 
         </Key>
@@ -1447,6 +1407,35 @@ end</script>
         - <keyCode>42</keyCode>
         - <keyModifier>536870912</keyModifier>
       - </Key>
+        <Key isActive="yes" isFolder="no">
+          <name>/: kurz</name>
+          <packageName></packageName>
+          <script>local newmodus = &quot;&quot;
+
+if ME.modus == &quot;lang&quot; then
+  newmodus = &quot;kurz&quot;
+elseif ME.modus == &quot;kurz&quot; then
+  newmodus = &quot;ultrakurz&quot;
+elseif ME.modus == &quot;ultrakurz&quot; then
+  newmodus = &quot;lang&quot;
+else
+  newmodus = &quot;kurz&quot;
+end
+
+ME.modus = newmodus
+send(newmodus)</script>
+          <command></command>
+          <keyCode>47</keyCode>
+          <keyModifier>536870912</keyModifier>
+        </Key>
+        <Key isActive="yes" isFolder="no">
+          <name>,: ausruestung</name>
+          <packageName></packageName>
+          <script></script>
+          <command>ausruestung</command>
+          <keyCode>44</keyCode>
+          <keyModifier>536870912</keyModifier>
+        </Key>
       </KeyGroup>
     </KeyPackage>
 </MudletPackage>

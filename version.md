@@ -4,6 +4,7 @@ Autoren
 * Zesstra@MorgenGrauen - https://github.com/zesstra/mgm-scripts
 * Krrrcks@MorgenGrauen - https://github.com/krrrcks/krrrcks-mudlet
 * Zaphob@MorgenGrauen - https://github.com/kebap/krrrcks-mudlet
+* Talanis@MorgenGrauen - https://github.com/talanis85/krrrcks-mudlet
 
 
 Versionen
@@ -63,3 +64,11 @@ Zaphob
 * Fenster-Resize entfernt, bringt keinen Unterschied, hab ich nicht verstanden.
 
 * Bewegung über Nummerntasten am Keypad auf besonderen Wunsch eines einzelnen Herrn.
+
+
+Talanis
+------
+
+* Erste Version eines Mappers.
+
+* Einfacher Speedwalker.

@@ -13,9 +13,18 @@ Viele Grüße [von den Autoren](version.md). Kontakt hier bei Github: [![Gitter]
 Was schon funktioniert
 ----------------------
 
+* Hilfreiche Funktionen
+ * Mapper malt automatisch Karten
+ * Bewegung mittels Nummerntasten am Keypad
+ * Unterstützung für Wegeskripte, wie aus TinyFugue bekannt ("go" & "dopath")
+ * Umlaute werden bei Eingabe erkannt & beim Versand durch Äquivalente ersetzt
+
+* Farbige Hervorhebungen  
+ * Kommunikation wie Ebenen, Mitteilungen, Team, uvm.
+ * Infos zur Bewegung wie z.B. sichtbare Ausgänge, Fluchtmeldung.
+ 
 * Statusleiste zeigt allgemeine Infos des Spielers
- * Lebenspunkte
- * Konzentration
+ * Lebenspunkte & Konzentration
  * Vorsicht, ggf. Fluchtrichtung
  * ggf. Vergiftungen
  * (Manche Teile des "reports" haben Voraussetzungen, die im Spiel erfüllt werden müssen)
@@ -26,36 +35,29 @@ Was schon funktioniert
  * Ist man in einer Parallelwelt? (Dazu muss man an einer Kugel an
    einem Seherportal vorbeilaufen.)
 
-* Hilfreiche Funktionen
- * Unterstützung für Wegeskripte, wie aus TinyFugue bekannt (go & dopath)
- * Umlaute werden bei Eingabe erkannt & beim Versand durch Äquivalente ersetzt
-
-* Farbige Hervorhebungen von verschiedenen Informationen
- * Kommunikation wie Ebenen, Mitteilungen, Team, uvm.
- * Hilfen zur Bewegung wie z.B. sichbare Ausgänge, Fluchtmeldung.
-
 
 Was noch offen ist
 ------------------
-
-* Mapper
 
 * Kampfscroll reduzieren
 
 * Skripte für Kämpfer und andere Gilden
 
-* Bedienungsanleitung 
+* Detailiertere Bedienungsanleitung 
 
 
 
 Kurzanleitung
 -------------
 
-* [XML Datei dieser Skripte](https://raw.githubusercontent.com/Kebap/krrrcks-mudlet/master/krrrcks.xml) speichern (Rechte Maustaste, Speichern unter ...)
-* Ggf. Mudlet installieren (getestet mit 3.0 und 2.1)
+* XML Dateien folgender Skripte speichern (Rechte Maustaste, Speichern unter ...)
+ * [Grundskript](https://raw.githubusercontent.com/Kebap/krrrcks-mudlet/master/krrrcks.xml) - ohne geht es nicht
+ * [Einstellungen](https://raw.githubusercontent.com/Kebap/krrrcks-mudlet/master/settings.xml) - benutzerdefinierte Einstellungen - ausgelagert aber benötigt
+ * [Mapper](https://raw.githubusercontent.com/Kebap/krrrcks-mudlet/master/mapper.xml) - optionale Erweiterung, Anleitung mit "mhilfe"
+* Ggf. Mudlet [installieren](http://www.mudlet.org/download) (getestet mit 3.0 und 2.1)
 * Neues Mudlet Profil erstellen für _mg.mud.de_ Port _23_ (Weitere Charaktere benötigen eigene Profile)
 * _Menu_ - _Settings_ - _Enable GMCP_
-* _Menu_ - _Scripts_ - _Import_ - zuvor gespeicherte XML Datei angeben
+* _Menu_ - _Scripts_ - _Import_ - zuvor gespeicherte XML Dateien angeben
 * Fertig, Skripte können nun benutzt werden.
 * Auf Wunsch Skripte wieder entfernen über _Menu_ - _Package Manager_ - Name des Skriptes wählen - _Uninstall_
 * Schon kann es wieder von vorne losgehen! :)
