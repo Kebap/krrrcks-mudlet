@@ -1,0 +1,22 @@
+
+tf Statuszeile:
+  {kaempfer_kampftaktik}{kaempfer_parade}{kaempfer_schildparade}{kaempfer_rueckendeckung}_\
++ {kaempfer_lp_text}{lp}_K:{mp}:{kaempfer_taktik}_{p_block}\
++ {arzt}{hydra_present}_FL:{vorsicht}:{flucht}_W:{weapon}_{modes}_\
++ {dim_node}_{clock}
+
+
+
+kaempfer_kampftaktik
+kaempfer_parade
+kaempfer_schildparade
+kaempfer_rueckendeckung
+kaempfer_lp_text
+lp
+mp
+kaempfer_taktik
+p_block
+arzt
+weapon
+modes
+

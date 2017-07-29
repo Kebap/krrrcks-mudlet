@@ -1,1 +1,1 @@
-mpackage = "krrrcks"
+mpackage = "MG"

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.0">
+    <TriggerPackage/>
+    <TimerPackage/>
+    <AliasPackage/>
+    <ScriptPackage>
+        <Script isActive="yes" isFolder="no">
+            <name>MG_Skripte_laden</name>
+            <packageName></packageName>
+            <script>function MG_Skripte_laden()
+	echo(&quot;MG: Loading modules...\n&quot;)
+
+	local path = package.path
+	local homeDirectory = getMudletHomeDir():gsub(&quot;\\&quot;, &quot;/&quot;)
+	
+	local luaDirectory = string.format(&quot;%s/%s&quot;, homeDirectory, [[?.lua]])
+	local initDirectory = string.format(&quot;%s/%s&quot;, homeDirectory, [[?/init.lua]])
+	package.path = string.format(&quot;%s;%s;%s&quot;, luaDirectory, initDirectory, path)
+
+	local okay, content = pcall(require, &quot;MG&quot;)
+	package.path = path
+
+	if okay then
+		MG = content
+	else
+		error(string.format(&quot;MG: Error loading module: %s.\n&quot;, content))
+	end
+
+	if MG then
+		echo(&quot;MG: Modules successfully loaded.\n&quot;)
+	end
+
+	-- tempTimer( 0, function () raiseEvent( &quot;MGLoadEvent&quot; ) end )
+end
+
+if not MG then
+    MG_Skripte_laden()
+end
+</script>
+            <eventHandlerList/>
+        </Script>
+    </ScriptPackage>
+    <KeyPackage/>
+</MudletPackage>
