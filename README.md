@@ -14,26 +14,26 @@ Was schon funktioniert
 ----------------------
 
 * Hilfreiche Funktionen
- * Mapper malt automatisch Karten
- * Bewegung mittels Nummerntasten am Keypad
- * Unterstützung für Wegeskripte, wie aus TinyFugue bekannt ("go" & "dopath")
- * Umlaute werden bei Eingabe erkannt & beim Versand durch Äquivalente ersetzt
+   * Mapper malt automatisch Karten
+   * Bewegung mittels Nummerntasten am Keypad
+   * Unterstützung für Wegeskripte, wie aus TinyFugue bekannt ("go" & "dopath")
+   * Umlaute werden bei Eingabe erkannt & beim Versand durch Äquivalente ersetzt
 
 * Farbige Hervorhebungen  
- * Kommunikation wie Ebenen, Mitteilungen, Team, uvm.
- * Infos zur Bewegung wie z.B. sichtbare Ausgänge, Fluchtmeldung.
+   * Kommunikation wie Ebenen, Mitteilungen, Team, uvm.
+   * Infos zur Bewegung wie z.B. sichtbare Ausgänge, Fluchtmeldung.
  
 * Statusleiste zeigt allgemeine Infos des Spielers
- * Lebenspunkte & Konzentration
- * Vorsicht, ggf. Fluchtrichtung
- * ggf. Vergiftungen
- * (Manche Teile des "reports" haben Voraussetzungen, die im Spiel erfüllt werden müssen)
+   * Lebenspunkte & Konzentration
+   * Vorsicht, ggf. Fluchtrichtung
+   * ggf. Vergiftungen
+   * (Manche Teile des "reports" haben Voraussetzungen, die im Spiel erfüllt werden müssen)
 
 * Statusleiste zeigt allgemeine Infos zum Raum, in dem sich der Spieler aktuell befindet:
- * Wie wird der Raum kurz genannt? 
- * Zu welcher Region gehört er? 
- * Ist man in einer Parallelwelt? (Dazu muss man an einer Kugel an
-   einem Seherportal vorbeilaufen.)
+   * Wie wird der Raum kurz genannt? 
+   * Zu welcher Region gehört er? 
+   * Ist man in einer Parallelwelt? (Dazu muss man an einer Kugel an
+     einem Seherportal vorbeilaufen.)
 
 
 Was noch offen ist
