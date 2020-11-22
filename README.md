@@ -51,20 +51,20 @@ Kurzanleitung
 -------------
 
 * Ggf. natürlich erstmal [Mudlet installieren](http://www.mudlet.org/download)
- * Neues Mudlet Profil erstellen für _mg.mud.de_ Port _23_ 
- * (Weitere Charaktere benötigen eigene Profile)
+   * Neues Mudlet Profil erstellen für _mg.mud.de_ Port _23_ 
+   * (Weitere Charaktere benötigen eigene Profile)
 * Folgende 3 Dateien herunterladen (Rechte Maustaste, Speichern unter ...)
- * [Grundskript](https://raw.githubusercontent.com/Kebap/krrrcks-mudlet/master/krrrcks.xml) - ohne geht es nicht (XML Datei mit Lua Skripten)
- * [Einstellungen](https://raw.githubusercontent.com/Kebap/krrrcks-mudlet/master/settings.xml) - benutzerdefinierte Einstellungen - ausgelagert aber benötigt
- * [Mapper](https://raw.githubusercontent.com/Kebap/krrrcks-mudlet/master/mapper.xml) - optionale Erweiterung, Anleitung mit "mhilfe"
+   * [Grundskript](https://raw.githubusercontent.com/Kebap/krrrcks-mudlet/master/krrrcks.xml) - ohne geht es nicht (XML Datei mit Lua Skripten)
+   * [Einstellungen](https://raw.githubusercontent.com/Kebap/krrrcks-mudlet/master/settings.xml) - benutzerdefinierte Einstellungen - ausgelagert aber benötigt
+   * [Mapper](https://raw.githubusercontent.com/Kebap/krrrcks-mudlet/master/mapper.xml) - optionale Erweiterung, Anleitung mit "mhilfe"
 * Skripte importieren per Drag & Drop
- * Die 3 o.g. Dateien nehmen und auf das Mudlet-Fenster fallen lassen.
- * (Kontrolle möglich über _Menu_ - _Package Manager_ - hier sollten nun die 3 Namen als letztes erscheinen)
- * (Drag & Drop funktioniert seit Mudlet 4.8 also Mitte 2020)
- * (Alternativ im Paketmanager auf Importieren klicken und zuvor gespeicherte XML Dateien angeben)
+   * Die 3 o.g. Dateien nehmen und auf das Mudlet-Fenster fallen lassen.
+   * (Kontrolle möglich über _Menu_ - _Package Manager_ - hier sollten nun die 3 Namen als letztes erscheinen)
+   * (Drag & Drop funktioniert seit Mudlet 4.8 also Mitte 2020)
+   * (Alternativ im Paketmanager auf Importieren klicken und zuvor gespeicherte XML Dateien angeben)
 * Fertig, Skripte können nun benutzt werden.
- * Auf Wunsch Skripte wieder entfernen im Paket-Manager: Name des Skriptes wählen & _Uninstall_ klicken
- * Schon kann es wieder von vorne losgehen! :)
+   * Auf Wunsch Skripte wieder entfernen im Paket-Manager: Name des Skriptes wählen & _Uninstall_ klicken
+   * Schon kann es wieder von vorne losgehen! :)
 
 Siehe auch: 
 * [Mudlet Infos auf der MorgenGrauen Webseite](http://mg.mud.de/download/mudlet.shtml)
