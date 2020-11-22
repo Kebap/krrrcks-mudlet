@@ -339,7 +339,7 @@ if wessen then
     send(&quot;schliesse haus von &quot; .. wessen .. &quot; auf&quot;)
     send(&quot;oeffne haus von &quot; .. wessen)
     send(&quot;betrete haus von &quot; .. wessen)
-    send(&quot;schliesse haus&quot;)
+    send(&quot;schliesse haus von &quot; .. wessen)
     send(&quot;schliesse haus von &quot; .. wessen .. &quot; ab&quot;)
 end</script>
                 <command></command>
