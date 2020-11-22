@@ -285,15 +285,15 @@ resetFormat()</script>
             <colorTriggerBgColor>#000000</colorTriggerBgColor>
             <regexCodeList>
                 <string>^Es gibt (.*) sichtbare Ausgaenge:</string>
-                <string>^Es gibt einen sichtbaren Ausgang: </string>
-                <string>^Es gibt keinen sichtbaren Ausgang.</string>
-                <string>^Es gibt keine sichtbaren Ausgaenge.</string>
+                <string>Es gibt einen sichtbaren Ausgang: </string>
+                <string>Es gibt keinen sichtbaren Ausgang.</string>
+                <string>Es gibt keine sichtbaren Ausgaenge.</string>
             </regexCodeList>
             <regexCodePropertyList>
                 <integer>1</integer>
-                <integer>1</integer>
-                <integer>1</integer>
-                <integer>1</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>2</integer>
             </regexCodePropertyList>
             </Trigger>
         </TriggerGroup>
