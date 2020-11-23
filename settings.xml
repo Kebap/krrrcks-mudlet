@@ -65,7 +65,7 @@ mapperconf = {}
 -------------------------------------------------------
 
 -- Farbe fuer Mitteilungen des Mappers
-mapperconf.color = "blue"
+mapperconf.color = "royal-blue"
 -- Standardabstand zwischen zwei Raeumen
 mapperconf.scale = 5
                     ]]>
