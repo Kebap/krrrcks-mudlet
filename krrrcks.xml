@@ -412,10 +412,10 @@ send(&quot;gruesse &quot;  .. matches[2])
                 <name>Weg ablaufen</name>
                 <script>-- Die alten tf-Wegeskripte. 
 
---  [[ Gestartet werden diese mit &quot;#go &lt;ziel&gt;&quot;, dann wird 
-    Ziel ausgewählt und die Sachen zum Mud geschossen. Dabei
-    ist zu beachten, dass die meisten Skripte bei einem Portal
-    bzw. beim Sandtiger starten. ]]--
+--[[ Gestartet werden diese mit &quot;#go &lt;ziel&gt;&quot;, dann wird 
+     Ziel ausgewählt und die Sachen zum Mud geschossen. Dabei
+     ist zu beachten, dass die meisten Skripte bei einem Portal
+     bzw. beim Sandtiger starten. ]]--
 
 -- Als Beispiel zwei Wege: Sandtiger-Hochebene und zurueck.
 
