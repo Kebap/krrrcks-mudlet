@@ -456,9 +456,9 @@ function schaetz_ausgabe()
   if schaetz_max_res ~= &quot;&quot; then echo(&quot;\nResis (!): &quot; .. schaetz_max_res) end
   if schaetz_strong_res ~= &quot;&quot; then echo(&quot;\nResis (+): &quot; .. schaetz_strong_res) end
   if schaetz_weak_res ~= &quot;&quot; then echo(&quot;\nResis (-): &quot; .. schaetz_weak_res) end
-  if schaetz_weak_anf ~= &quot;&quot; then echo(&quot;\nResis (-): &quot; .. schaetz_weak_anf) end
-  if schaetz_strong_anf ~= &quot;&quot; then echo(&quot;\nResis (+): &quot; .. schaetz_strong_anf) end
-  if schaetz_max_anf ~= &quot;&quot; then echo(&quot;\nResis (!): &quot; .. schaetz_max_anf) end
+  if schaetz_weak_anf ~= &quot;&quot; then echo(&quot;\nEmpf   (-): &quot; .. schaetz_weak_anf) end
+  if schaetz_strong_anf ~= &quot;&quot; then echo(&quot;\nEmpf  (+): &quot; .. schaetz_strong_anf) end
+  if schaetz_max_anf ~= &quot;&quot; then echo(&quot;\nEmpf  (!): &quot; .. schaetz_max_anf) end
 
 -- ----------------------------------------------------------------------------
 -- Ende Ausgabe
