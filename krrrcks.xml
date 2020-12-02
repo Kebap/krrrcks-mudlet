@@ -327,23 +327,23 @@ function schaetz_ausgabe()
     dt = string.gsub(dt, 'zerquetschenden','Quetschen')
     dt = string.gsub(dt, 'explodierenden','Explosionen')
     dt = string.gsub(dt, 'reissenden','Reissen')
-  end 
 
-  if r == &quot;extrem anfaellig&quot; then
-    schaetz_max_anf = schaetz_max_anf .. dt .. &quot;, &quot;
-  elseif r == &quot;sehr anfaellig&quot; then
-    schaetz_strong_anf = schaetz_strong_anf .. dt .. &quot;, &quot;
-  elseif r == &quot;anfaellig&quot; then
-    schaetz_weak_anf = schaetz_weak_anf .. dt .. &quot;, &quot;
-  elseif r == &quot;geschuetzt&quot; then
-    schaetz_weak_res = schaetz_weak_res .. dt .. &quot;, &quot;
-  elseif r == &quot;sehr gut geschuetzt&quot; then
-    schaetz_strong_res = schaetz_strong_res .. dt .. &quot;, &quot;
-  elseif r == &quot;extrem gut geschuetzt&quot; then
-    schaetz_max_res = schaetz_max_res .. dt .. &quot;, &quot;
-  elseif r == &quot;voellig immun&quot; then
-    schaetz_max_res = schaetz_max_res .. dt .. &quot;!, &quot;
-  end
+    if r == &quot;extrem anfaellig&quot; then
+      schaetz_max_anf = schaetz_max_anf .. dt .. &quot;, &quot;
+    elseif r == &quot;sehr anfaellig&quot; then
+      schaetz_strong_anf = schaetz_strong_anf .. dt .. &quot;, &quot;
+    elseif r == &quot;anfaellig&quot; then
+      schaetz_weak_anf = schaetz_weak_anf .. dt .. &quot;, &quot;
+    elseif r == &quot;geschuetzt&quot; then
+      schaetz_weak_res = schaetz_weak_res .. dt .. &quot;, &quot;
+    elseif r == &quot;sehr gut geschuetzt&quot; then
+      schaetz_strong_res = schaetz_strong_res .. dt .. &quot;, &quot;
+    elseif r == &quot;extrem gut geschuetzt&quot; then
+      schaetz_max_res = schaetz_max_res .. dt .. &quot;, &quot;
+    elseif r == &quot;voellig immun&quot; then
+      schaetz_max_res = schaetz_max_res .. dt .. &quot;!, &quot;
+    end
+  end 
 
 -- ----------------------------------------------------------------------------
 --  Groesse merken
